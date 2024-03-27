@@ -48,6 +48,7 @@ class DetectionCellPostProcessor:
         Raises:
             NotImplementedError: Unknown magnification
         """
+        magnification=40
         self.nr_types = nr_types
         self.magnification = magnification
         self.gt = gt
